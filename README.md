@@ -238,15 +238,11 @@ git push heroku main
 4. Push para a branch (`git push origin feature/AmazingFeature`)
 5. Abra um Pull Request
 
-## 📝 Licença
-
-Este projeto está sob a licença MIT. Veja o arquivo `LICENSE` para mais detalhes.
-
 ## 👨‍💻 Autor
 
 **Seu Nome**
-- GitHub: [@seu-usuario](https://github.com/seu-usuario)
-- LinkedIn: [seu-linkedin](https://linkedin.com/in/seu-linkedin)
+- GitHub: [[@seu-usuario](https://github.com/seu-usuario)](https://github.com/rodolfofaust)
+- LinkedIn: [[seu-linkedin](https://linkedin.com/in/seu-linkedin)](https://www.linkedin.com/in/rodolfo-faust/)
 
 ## 🙏 Agradecimentos
 
