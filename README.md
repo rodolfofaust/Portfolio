@@ -241,8 +241,8 @@ git push heroku main
 ## 👨‍💻 Autor
 
 **Seu Nome**
-- GitHub: [[@seu-usuario](https://github.com/seu-usuario)](https://github.com/rodolfofaust)
-- LinkedIn: [[seu-linkedin](https://linkedin.com/in/seu-linkedin)](https://www.linkedin.com/in/rodolfo-faust/)
+- GitHub:https://github.com/rodolfofaust
+- LinkedIn:https://www.linkedin.com/in/rodolfo-faust/
 
 ## 🙏 Agradecimentos
 
