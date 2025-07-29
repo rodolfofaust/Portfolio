@@ -38,9 +38,12 @@ public class User {
 
 	public static String getUserNameById(List<User> users, String id) {
         for (User user : users) {
-            if (user.id.equals(id)) {
+        	/*
+        	if (user.id.equals(id)) {
                 return user.name;
             }
+        	 */            
+            return user.name;
         }
         return null;
     }
