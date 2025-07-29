@@ -1,0 +1,8 @@
+{
+  "prompt": "Um gato siamês sentado em um jardim japonês tradicional, com lanternas de pedra e cerejeiras em flor ao fundo, estilo fotográfico profissional",
+  "negativePrompt": "borrão, baixa qualidade, distorção, arte digital, desenho",
+  "size": "1024x1024",
+  "style": "vivid",
+  "quality": 1,
+  "n": 1
+} 
