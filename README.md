@@ -1,13 +1,11 @@
 # principal
 
 <h1 align="center">Hi 👋, I'm Rodolfo Faust</h1>
-<h3 align="center">A passionate backtend developer from Brazil | JAVA, DELPHI and Kotlin.</h3>
+<h3 align="center">A passionate backtend developer from Brazil | JAVA 17, JavaScript, DELPHI and Kotlin.</h3>
 
 - 🔭 I’m currently working on Sankhya - Business Management [ERP Sankhya OM](https://www.sankhya.com.br/solucao-erp/)
 
 - 🌱 I’m currently learning **Kotlin e Ruby on Rails**
-
-- 💬 Ask me about **Excel, Java, SQL and Delphi**
 
 - 📫 How to reach me **rodolfo.faust@gmail.com**
 
