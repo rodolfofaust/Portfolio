@@ -1,0 +1,97 @@
+{
+  "info": {
+    "name": "AI Image Generator API",
+    "description": "Coleção para testar a API de geração de imagens com IA",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "variable": [
+    {
+      "key": "baseUrl",
+      "value": "http://localhost:8080",
+      "type": "string"
+    }
+  ],
+  "item": [
+    {
+      "name": "Health Check",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{baseUrl}}/api/v1/images/health",
+          "host": ["{{baseUrl}}"],
+          "path": ["api", "v1", "images", "health"]
+        }
+      }
+    },
+    {
+      "name": "Gerar Imagem",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"prompt\": \"Um gato siamês sentado em um jardim japonês tradicional, com lanternas de pedra e cerejeiras em flor ao fundo, estilo fotográfico profissional\",\n  \"negativePrompt\": \"borrão, baixa qualidade, distorção, arte digital, desenho\",\n  \"size\": \"1024x1024\",\n  \"style\": \"vivid\",\n  \"quality\": 1,\n  \"n\": 1\n}"
+        },
+        "url": {
+          "raw": "{{baseUrl}}/api/v1/images/generate",
+          "host": ["{{baseUrl}}"],
+          "path": ["api", "v1", "images", "generate"]
+        }
+      }
+    },
+    {
+      "name": "Listar Todas as Gerações",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{baseUrl}}/api/v1/images",
+          "host": ["{{baseUrl}}"],
+          "path": ["api", "v1", "images"]
+        }
+      }
+    },
+    {
+      "name": "Buscar Geração por ID",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{baseUrl}}/api/v1/images/1",
+          "host": ["{{baseUrl}}"],
+          "path": ["api", "v1", "images", "1"]
+        }
+      }
+    },
+    {
+      "name": "Swagger UI",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{baseUrl}}/swagger-ui.html",
+          "host": ["{{baseUrl}}"],
+          "path": ["swagger-ui.html"]
+        }
+      }
+    },
+    {
+      "name": "H2 Console",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{baseUrl}}/h2-console",
+          "host": ["{{baseUrl}}"],
+          "path": ["h2-console"]
+        }
+      }
+    }
+  ]
+} 
